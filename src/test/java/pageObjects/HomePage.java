@@ -8,6 +8,8 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//span[normalize-space()='My Account']") WebElement linkMyAccount;
 	@FindBy(xpath="//a[normalize-space()='Register']") WebElement linkRegister;
 	@FindBy(linkText = "Login")   WebElement linkLogin;
+	@FindBy(xpath="//input[@placeholder='Search']")  WebElement searchBox;
+	@FindBy(xpath="//div[@id='search']//button[@type='button']") WebElement searchButton;
 	
 	public HomePage(WebDriver driver)
 	{
@@ -41,4 +43,18 @@ public class HomePage extends BasePage{
 		}
 	}
 
+	public void enterProductName(String productName)
+	{
+		sendingValueToWebElement("searchBox",searchBox,productName);
 	}
+
+	public void clickSearch()
+	{
+		try {
+			waitAndClickOnElement(searchButton);
+		} catch (InterruptedException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+}

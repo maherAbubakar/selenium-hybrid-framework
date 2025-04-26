@@ -1,13 +1,23 @@
-2025-04-23 23:40:29 INFO  TC001AccountRegistrationTest:14 - ***** Starting TC001AccountRegistrationTest  ****
-2025-04-23 23:40:31 INFO  TC001AccountRegistrationTest:19 - Clicked on MyAccount Link.. 
-2025-04-23 23:40:34 INFO  TC001AccountRegistrationTest:22 - Clicked on Register Link.. 
-2025-04-23 23:40:34 INFO  TC001AccountRegistrationTest:26 - Providing customer details...
-2025-04-23 23:40:53 INFO  TC001AccountRegistrationTest:40 - Validating expected message..
-2025-04-23 23:40:53 INFO  TC001AccountRegistrationTest:45 - Test passed
-2025-04-23 23:40:53 INFO  TC001AccountRegistrationTest:50 - ***** Finished TC001AccountRegistrationTest *****
-2025-04-23 23:40:58 INFO  TC002LoginTest:15 - **** Starting TC_002_LoginTest  ****
-2025-04-23 23:40:59 INFO  TC002LoginTest:21 - clicked on my account link on the home page..
-2025-04-23 23:41:00 INFO  TC002LoginTest:23 - clicked on login link under my account..
-2025-04-23 23:41:00 INFO  TC002LoginTest:27 - Entering valid email and password..
-2025-04-23 23:41:12 INFO  TC002LoginTest:31 - clicked on login button..
-2025-04-23 23:41:12 INFO  TC002LoginTest:41 - **** Finished TC_002_LoginTest  ****
+2025-04-27 00:55:46 INFO  TC001AccountRegistrationTest:14 - ***** Starting TC001AccountRegistrationTest  ****
+2025-04-27 00:55:48 INFO  TC001AccountRegistrationTest:19 - Clicked on MyAccount Link.. 
+2025-04-27 00:55:49 INFO  TC001AccountRegistrationTest:22 - Clicked on Register Link.. 
+2025-04-27 00:55:49 INFO  TC001AccountRegistrationTest:26 - Providing customer details...
+2025-04-27 00:56:07 INFO  TC001AccountRegistrationTest:40 - Validating expected message..
+2025-04-27 00:56:07 INFO  TC001AccountRegistrationTest:45 - Test passed
+2025-04-27 00:56:07 INFO  TC001AccountRegistrationTest:50 - ***** Finished TC001AccountRegistrationTest *****
+2025-04-27 00:56:12 INFO  TC002LoginTest:15 - **** Starting TC_002_LoginTest  ****
+2025-04-27 00:56:13 INFO  TC002LoginTest:21 - clicked on my account link on the home page..
+2025-04-27 00:56:14 INFO  TC002LoginTest:23 - clicked on login link under my account..
+2025-04-27 00:56:14 INFO  TC002LoginTest:27 - Entering valid email and password..
+2025-04-27 00:56:26 INFO  TC002LoginTest:31 - clicked on login button..
+2025-04-27 00:56:27 INFO  TC002LoginTest:41 - **** Finished TC_002_LoginTest  ****
+2025-04-27 00:56:31 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2025-04-27 00:56:36 INFO  TC_004_SearchProductTest:31 -  Finished TC_004_SearchProductTest 
+2025-04-27 00:56:40 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2025-04-27 00:56:45 INFO  TC_005_AddToCartPageTest:41 -  Finished TC_004_SearchProductTest 
+2025-04-27 01:00:02 INFO  TC004SearchProductTest:14 - Starting TC004SearchProductTest
+2025-04-27 01:00:03 INFO  TC004SearchProductTest:30 -  Finished TC004SearchProductTest
+2025-04-27 01:03:39 INFO  TC004SearchProductTest:14 - Starting TC004SearchProductTest
+2025-04-27 01:03:41 INFO  TC004SearchProductTest:28 -  Finished TC004SearchProductTest
+2025-04-27 01:03:46 INFO  TC005AddToCartPageTest:15 - Starting TC005AddToCartPageTest
+2025-04-27 01:03:49 INFO  TC005AddToCartPageTest:35 - Finished TC005_AddToCartPageTest

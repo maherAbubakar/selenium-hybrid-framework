@@ -3,11 +3,12 @@
 <suite name="Suite">
 
     <groups>
-          <run>
-              <include name="regression"></include>
-               <include name="sanity"></include>
-              <include name="data-driven"></include>
-            </run>
+        <run>
+            <include name="regression"></include>
+            <include name="sanity"></include>
+            <include name="data-driven"></include>
+            <include name="master"></include>
+        </run>
     </groups>
 
     <listeners>
@@ -15,14 +16,18 @@
     </listeners>
 
 
-      <test thread-count="5" name="Test">
-        <parameter name="operatingSystem" value="Windows" />
-        <parameter name="browser"  value="chrome"/>
-      <classes>
-           <class name="testCases.TC001AccountRegistrationTest"/>
-          <class name="testCases.TC002LoginTest"/>
-    <!-- <class name="testCases.TC003LoginDDT"/>-->
-</classes>
+    <test thread-count="5" name="Test">
+        <parameter name="operatingSystem" value="Windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC001AccountRegistrationTest"/>
+            <class name="testCases.TC002LoginTest"/>
+            <class name="testCases.TC003LoginDDT"/>
+            <class name="testCases.TC004SearchProductTest"/>
+            <class name="testCases.TC005AddToCartPageTest"/>
+            <class name="testCases.TC006EndToEndTest"/>
 
-</test> <!-- Test -->
+        </classes>
+
+    </test> <!-- Test -->
 </suite> <!-- Suite -->
