@@ -28,11 +28,11 @@ for OpenCart testing.
 - Java 17 JDK
 - Maven 3.8+
 - Docker (for Grid setup)
-- OpenCart installed (WAMP/XAMPP) - [https://www.opencart.com/index.php?route=cms/download]
+- OpenCart installed (WAMP/XAMPP) - https://www.opencart.com/index.php?route=cms/download
 
 ### Installation bash
-[git clone https://github.com/maherAbubakar/selenium-hybrid-framework.git]
-[cd selenium-hybrid-framework]
+git clone https://github.com/maherAbubakar/selenium-hybrid-framework.git
+cd selenium-hybrid-framework
 
 ### Configuration
 Update config.properties:
@@ -41,7 +41,7 @@ Update config.properties:
 * browser=chrome
 
 ### For Selenium Grid:
-[docker-compose -f src/test/resources/docker-compose.yaml up -d]
+docker-compose -f src/test/resources/docker-compose.yaml up -d
 
 ### 🧪 Running Tests
 **Test Suites**
@@ -64,4 +64,5 @@ Abubakar
 
 ### 📧 Contact
 Email: maherabubakar80@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/abubakar-saleem/
