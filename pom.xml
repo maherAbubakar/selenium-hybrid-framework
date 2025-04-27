@@ -20,7 +20,10 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
                 <configuration>
-                    <skipTests>true</skipTests>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/xml/crossbrowsertests.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <!--<skipTests>true</skipTests>-->
                 </configuration>
             </plugin>
         </plugins>

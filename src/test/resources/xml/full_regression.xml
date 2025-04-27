@@ -26,7 +26,6 @@
             <class name="testCases.TC004SearchProductTest"/>
             <class name="testCases.TC005AddToCartPageTest"/>
             <class name="testCases.TC006EndToEndTest"/>
-
         </classes>
 
     </test> <!-- Test -->
