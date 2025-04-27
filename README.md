@@ -4,7 +4,7 @@
 ![TestNG](https://img.shields.io/badge/TestNG-7.9.0-DD0031)
 ![Java](https://img.shields.io/badge/Java-17-007396?logo=java)
 
-A robust hybrid test automation framework combining **POM, Data-Driven, and Keyword-Driven** approaches 
+A robust hybrid test automation framework combining **Page Object Model, Data-Driven** approaches 
 for OpenCart testing.
 
 ## 📌 Features
@@ -45,10 +45,11 @@ docker-compose -f src/test/resources/docker-compose.yaml up -d
 
 ### 🧪 Running Tests
 **Test Suites**
-File	                |   Purpose
-crossBrowser-test.xml   |   For Cross Browser testing
-full_regression.xml     |   For running end-to-end test
-grid-docker.xml         | Selenium Grid tests
+| File                   | Purpose                      |
+|----------------------- |------------------------------|
+| crossBrowser-test.xml  | For Cross Browser testing    |
+| full_regression.xml    | For running end-to-end test  |
+| grid-docker.xml        | Selenium Grid tests          |
 
 ### 📊 Reports
 ExtentReports: reports/Test-Report.html
@@ -57,7 +58,7 @@ Logs: logs/automation.log
 Screenshots: screenshots/ (on failure)
 
 ### 🤝 Contribution
-Contributions are welcome! Please read CONTRIBUTING.md before submitting a pull request.
+Contributions are welcome! Please read contribution.md before submitting a pull request.
 
 ### 📧 Author
 Abubakar
