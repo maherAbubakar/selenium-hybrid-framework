@@ -53,8 +53,11 @@ docker-compose -f src/test/resources/docker-compose.yaml up -d
 
 ### 📊 Reports
 ExtentReports: reports/Test-Report.html
+
 TestNG Reports: target/surefire-reports
+
 Logs: logs/automation.log
+
 Screenshots: screenshots/ (on failure)
 
 ### 🤝 Contribution
